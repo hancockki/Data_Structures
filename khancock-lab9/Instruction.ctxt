@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Instruction
+comment0.text=\r\n\ This\ class\ represents\ one\ Darwin\ instruction.\ Instructions\ contain\ two\ parts\:\r\n\ an\ opcode\ and\ (depending\ on\ the\ opcode)\ a\ label.\ See\ the\ Opcode\ class\ for\ a\r\n\ listing\ of\ the\ instruction\ types.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getLabel()
+comment1.text=\r\n\ Get\ the\ label\ of\ the\ instruction\ (if\ one\ exists).\r\n\ \r\n\ @return\ The\ instruction\ label,\ or\ null.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Get\ a\ string\ representation\ of\ the\ instruction\ in\ the\ form\ used\ in\ a\ Darwin\r\n\ species\ file.\r\n
+numComments=3

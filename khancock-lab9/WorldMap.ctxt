@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WorldMap
+comment0.text=\r\n\ This\ class\ provides\ functionality\ to\ draw\ the\ graphical\ world\ map\ during\ a\r\n\ Darwin\ simulation.\ Before\ any\ other\ operations\ can\ be\ performed,\ the\ starting\r\n\ map\ must\ be\ initialized\ by\ calling\ WorldMap.initialize(width,\ height).\r\n
+comment1.params=width\ height
+comment1.target=void\ initialize(int,\ int)
+comment1.text=\r\n\ Initialize\ the\ world\ map\ of\ the\ specified\ size\ and\ display\ the\ window\ for\r\n\ it.\ This\ must\ be\ called\ once\ and\ only\ once,\ before\ calling\ any\ other\r\n\ WorldMap\ operations.\ Produces\ an\ error\ if\ called\ multiple\ times.\r\n\ \r\n\ @param\ width\r\n\ \ \ \ \ \ \ \ \ \ The\ width\ of\ the\ world\ (1\ to\ 30).\r\n\ @param\ height\r\n\ \ \ \ \ \ \ \ \ \ The\ height\ of\ the\ world\ (1\ to\ 30).\r\n
+comment2.params=creature
+comment2.target=void\ drawCreature(Creature)
+comment2.text=\r\n\ Draw\ the\ given\ creature\ at\ the\ square\ indicated\ by\ its\ current\ position.\r\n\ Creatures\ are\ drawn\ as\ a\ colored\ arrow\ (of\ the\ species's\ color)\ with\ the\r\n\ first\ letter\ of\ the\ species's\ name,\ pointing\ in\ the\ creature's\ current\r\n\ direction.\ Any\ existing\ contents\ drawn\ at\ the\ square\ to\ update\ are\r\n\ overwritten.\ This\ method\ does\ *not*\ affect\ any\ other\ square\ at\ which\r\n\ the\ creature\ may\ have\ previously\ been\ drawn.\r\n\ \r\n\ @param\ creature\r\n\ \ \ \ \ \ \ \ \ \ The\ creature\ to\ draw.\r\n
+comment3.params=pos
+comment3.target=void\ clearSquare(Position)
+comment3.text=\r\n\ Clear\ the\ contents\ of\ the\ square\ at\ the\ given\ position.\r\n\ \r\n\ @param\ pos\r\n\ \ \ \ \ \ \ \ \ \ The\ position\ of\ the\ square\ to\ clear.\r\n
+comment4.params=creature\ prevPos
+comment4.target=void\ drawMovedCreature(Creature,\ Position)
+comment4.text=\r\n\ Re-draw\ a\ creature\ that\ just\ moved.\ Functionally\ identical\ to\ calling\r\n\ drawCreature(creature)\ followed\ by\ clearSquare(prevPos),\r\n\ but\ produces\ a\ smoother\ transition\ with\ less\ image\ flicker.\ Produces\ an\r\n\ error\ if\ the\ given\ creature\ is\ located\ at\ the\ same\ position\ as\ the\r\n\ square\ to\ clear.\r\n\ \r\n\ @param\ creature\r\n\ \ \ \ \ \ \ \ \ \ The\ creature\ to\ draw.\r\n\ @param\ prevPos\r\n\ \ \ \ \ \ \ \ \ \ The\ position\ of\ the\ square\ to\ clear.\r\n
+comment5.params=durationMs
+comment5.target=void\ pause(long)
+comment5.text=\r\n\ Pause\ the\ simulation\ for\ the\ given\ duration.\ This\ should\ be\ called\r\n\ periodically\ to\ prevent\ the\ simulation\ from\ completing\ instantly.\r\n\ \r\n\ @param\ durationMs\r\n\ \ \ \ \ \ \ \ \ \ The\ duration\ to\ pause,\ in\ milliseconds.\r\n
+comment6.params=
+comment6.target=WorldMap()
+comment6.text=\r\n\ \r\n\ Everything\ else\ below\ is\ internal\ code\ to\ manage\ the\ window.\ You\ should\ not\r\n\ need\ to\ modify,\ understand,\ or\ even\ look\ at\ it.\r\n\ \r\n
+numComments=7

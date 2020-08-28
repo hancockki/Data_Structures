@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Direction
+comment0.text=\r\n\ This\ class\ represents\ a\ compass\ direction\ (north,\ south,\ east,\ or\ west).\r\n
+comment1.params=
+comment1.target=Direction\ random()
+comment1.text=\r\n\ Get\ a\ direction\ selected\ uniformly\ at\ random.\r\n\ \r\n\ @return\ A\ random\ direction.\r\n
+comment2.params=
+comment2.target=Direction\ right()
+comment2.text=\r\n\ Get\ the\ direction\ to\ the\ right\ of\ this\ direction.\r\n\ \r\n\ @return\ The\ direction\ to\ the\ right.\r\n
+comment3.params=
+comment3.target=Direction\ left()
+comment3.text=\r\n\ Get\ the\ direction\ to\ the\ left\ of\ this\ direction.\r\n\ \r\n\ @return\ The\ direction\ to\ the\ left.\r\n
+numComments=4

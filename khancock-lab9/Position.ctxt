@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\r\n\ This\ class\ represents\ an\ (x,y)\ coordinate\ in\ a\ Darwin\ world.\ The\ upper-left\r\n\ square\ of\ the\ world\ is\ at\ position\ (0,0)\ and\ the\ lower-right\ square\ of\ a\ k\ by\r\n\ k\ world\ is\ at\ position\ (k-1,k-1).\r\n
+comment1.params=x\ y
+comment1.target=Position(int,\ int)
+comment1.text=\r\n\ Create\ a\ new\ position\ for\ the\ given\ x\ and\ y\ coordinates.\r\n\ \r\n\ @param\ x\ The\ x\ coordinate.\r\n\ @param\ y\ The\ y\ coordinate.\r\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\r\n\ Get\ the\ x\ coordinate\ for\ the\ position.\r\n\ \r\n\ @return\ The\ x\ coordinate.\r\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\r\n\ Get\ the\ y\ coordinate\ for\ the\ position.\r\n\ \r\n\ @return\ The\ y\ coordinate.\r\n
+comment4.params=direction
+comment4.target=Position\ getAdjacent(Direction)
+comment4.text=\r\n\ Get\ a\ new\ position\ that\ is\ adjacent\ in\ one\ of\ the\ four\ compass\ directions\r\n\ from\ this\ position.\r\n\ \r\n\ @param\ direction\ The\ compass\ direction\ to\ move.\r\n\ @return\ The\ position\ that\ is\ one\ square\ in\ the\ given\ direction\ from\ this\r\n\ \ \ \ \ \ \ \ \ position.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Get\ a\ textual\ representation\ of\ the\ position.\r\n
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ Check\ if\ this\ position\ is\ equal\ to\ another\ object.\ Two\ positions\ are\ equal\r\n\ if\ they\ have\ the\ same\ coordinates.\r\n
+numComments=7

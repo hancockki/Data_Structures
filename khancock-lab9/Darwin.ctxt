@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Darwin
+comment0.text=\r\n\ This\ class\ runs\ a\ Darwin\ simulation.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Prompt\ for\ species\ filenames\ and\ colors,\ generate\ the\ starting\ world\ and\r\n\ creatures,\ then\ run\ the\ Darwin\ simulation.\r\n
+numComments=2

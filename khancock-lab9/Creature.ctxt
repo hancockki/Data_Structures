@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Creature
+comment0.text=\r\n\ This\ class\ represents\ one\ creature\ in\ a\ Darwin\ simulation.\ Each\ creature\ is\r\n\ of\ a\ particular\ species\ and\ has\ a\ position\ and\ direction\ within\ the\r\n\ simulation\ world.\ In\ addition,\ each\ creature\ must\ remember\ its\ current\r\n\ position\ within\ its\ species\ program,\ which\ tells\ it\ which\ instruction\ to\r\n\ execute\ next.\ Lastly,\ creatures\ are\ responsible\ for\ drawing\ themselves\ in\ the\r\n\ graphical\ world\ map\ and\ updating\ the\ map\ appropriately\ as\ actions\ are\ taken.\r\n
+comment1.params=species\ world\ pos\ dir
+comment1.target=Creature(Species,\ World,\ Position,\ Direction)
+comment1.text=\r\n\ Create\ a\ creature\ of\ the\ given\ species,\ within\ the\ given\ world,\ with\ the\r\n\ indicated\ starting\ position\ and\ direction.\r\n
+comment2.params=
+comment2.target=Creature()
+comment3.params=
+comment3.target=Species\ species()
+comment3.text=\r\n\ Get\ the\ current\ species\ of\ the\ creature.\r\n\ \r\n\ @return\ The\ current\ creature\ species.\r\n
+comment4.params=
+comment4.target=Direction\ direction()
+comment4.text=\r\n\ Get\ the\ current\ direction\ of\ the\ creature.\r\n\ \r\n\ @return\ The\ current\ creature\ direction.\r\n
+comment5.params=
+comment5.target=Position\ position()
+comment5.text=\r\n\ Get\ the\ current\ position\ of\ the\ creature.\r\n\ \r\n\ @return\ The\ current\ creature\ position.\r\n
+comment6.params=
+comment6.target=void\ execute()
+comment6.text=\r\n\ Repeatedly\ execute\ instructions\ from\ the\ creature's\ program\ until\ one\ of\r\n\ the\ 'terminating'\ instructions\ (hop,\ left,\ right,\ or\ infect)\ is\ executed.\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ Tests\ the\ functionality\ of\ the\ Creature\ class.\r\n
+numComments=8

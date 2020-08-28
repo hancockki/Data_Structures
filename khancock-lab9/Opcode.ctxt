@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Opcode
+comment0.text=\r\n\ This\ class\ represents\ one\ of\ the\ valid\ operations\ (opcodes)\ that\ are\ part\ of\r\n\ the\ instructions\ of\ a\ Darwin\ species.\ Some\ operations\ take\ an\ label\ in\r\n\ addition\ to\ the\ opcode\ itself.\r\n
+comment1.params=str
+comment1.target=Opcode\ fromString(java.lang.String)
+comment1.text=\r\n\ Convert\ a\ string\ (e.g.,\ 'hop')\ to\ its\ corresponding\ opcode\ (e.g.,\r\n\ Opcode.HOP).\ The\ given\ string\ is\ case-insensitive,\ but\ otherwise\ must\r\n\ exactly\ match\ an\ opcode\ value.\ \ This\ is\ a\ slightly\ more\ user-friendly\r\n\ wrapper\ for\ the\ valueOf\ method\ that\ is\ automatically\ generated\ for\r\n\ all\ enum\ types.\r\n\ \r\n\ @param\ str\ The\ string\ of\ an\ opcode\ value.\r\n\ @return\ The\ corresponding\ opcode,\ or\ null\ if\ no\ such\ opcode\ exists.\r\n
+comment2.params=type
+comment2.target=Opcode(Opcode.Type)
+comment3.params=
+comment3.target=boolean\ acceptsLabel()
+comment3.text=\r\n\ Get\ whether\ the\ opcode\ accepts\ a\ label\ (either\ optional\ or\ required).\r\n\ \r\n\ @return\ True\ iff\ the\ opcode\ accepts\ a\ label.\r\n
+comment4.params=
+comment4.target=boolean\ labelOptional()
+comment4.text=\r\n\ Get\ whether\ the\ opcode\ accepts\ an\ optional\ label.\r\n\ \r\n\ @return\ True\ iff\ the\ opcode\ accepts\ an\ optional\ label.\r\n
+comment5.params=
+comment5.target=boolean\ labelRequired()
+comment5.text=\r\n\ Get\ whether\ the\ opcode\ must\ be\ given\ a\ label.\r\n\ \r\n\ @return\ True\ iff\ the\ opcode\ requires\ a\ label.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Get\ a\ string\ representation\ of\ the\ opcode.\r\n
+numComments=7
