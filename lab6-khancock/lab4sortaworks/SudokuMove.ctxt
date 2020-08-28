@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SudokuMove
+comment0.text=\r\n\ an\ object\ representing\ a\ single\ digit\ placement\ while\ solving\ a\ sudoku\ puzzle,\ to\ be\r\n\ used\ by\ the\ solver\r\n
+comment1.params=newNum\ i\ j
+comment1.target=SudokuMove(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getI()
+comment3.params=
+comment3.target=int\ getJ()
+comment4.params=
+comment4.target=int\ getNewNum()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
