@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CoinStrip
+comment1.params=coins\ boardLength\ currentPlayer
+comment1.target=CoinStrip(int,\ int,\ int)
+comment1.text=\r\n\ The\ constructor\ prints\ a\ visual\ representation\ of\ the\ starting\ game\ board,\ \r\n\ with\ a\ random\ number\ of\ slots\ and\ coins,\ along\ with\ game\ instructions.\r\n\ The\ position\ of\ the\ coins\ on\ the\ board\ is\ also\ random.\r\n\ \r\n
+comment2.params=coins
+comment2.target=int[]\ startingPositions(int)
+comment2.text=\r\n\ Creates\ an\ array\ of\ possible\ positions\ on\ the\ board\ each\ coin\ can\ hold,\ then\r\n\ randomly\ picks\ integers\ from\ it\ and\ adds\ the\ same\ number\ of\ integers\ as\ coins\ to\ a\ new\ array.\r\n\ Each\ integer\ in\ the\ array\ is\ the\ position\ on\ the\ board\ each\ coin\ will\ hold,\r\n\ starting\ from\ position\ zero,\ the\ slot\ furthest\ to\ the\ left.\r\n\ \r\n\ @param\ coins\ The\ number\ of\ coins\ on\ the\ game\ board.\r\n\ @return\ An\ array\ which\ holds\ the\ position\ of\ each\ coin\ on\ the\ board.\r\n
+comment3.params=startBoard
+comment3.target=java.lang.String\ boardString(int[])
+comment3.text=\r\n\ Creates\ a\ string\ representation\ of\ the\ game\ board,\ called\ after\ each\ move\r\n\ the\ user\ makes\ to\ print\ updated\ board.\r\n\ \r\n\ @param\ startBoard\ The\ array\ of\ indeces\ on\ the\ game\ board\ the\ coins\ will\ be\ on.\r\n\ @return\ The\ string\ representation\ of\ the\ board.\r\n
+comment4.params=coinNum\ index
+comment4.target=void\ nextMove(int,\ int)
+comment4.text=\r\n\ Updates\ the\ startBoard\ array\ based\ on\ user's\ input.\ \r\n\ Then,\ tests\ if\ user\ gave\ a\ winning\ move.\r\n\ If\ not,\ updates\ currentPlayer\ and\ prompts\ user\ for\ next\ move.\r\n\ \r\n\ @param\ coinNum\ The\ given\ coin\ based\ on\ user\ input\r\n\ @param\ index\ The\ number\ of\ spaces\ the\ coin\ will\ move,\ based\ on\ user\ input.\r\n
+comment5.params=
+comment5.target=void\ nextInput()
+comment5.text=\r\n\ Wrapper\ method,\ creates\ a\ new\ Scanner\ object\ for\ user's\ input\ for\ the\ next\ turn.\r\n\ Checks\ if\ input\ is\ valid,\ and\ if\ so,\ calls\ method\ to\ update\ the\ board.\r\n\ If\ input\ is\ invalid,\ calls\ the\ method\ again.\r\n
+comment6.params=
+comment6.target=boolean\ winnerOrNot()
+comment6.text=\r\n\ Tests\ if\ the\ user\ gave\ a\ winning\ move.\r\n\ \r\n\ @return\ Boolean,\ true\ if\ it's\ a\ winning\ move,\ false\ if\ not\r\n
+comment7.params=coinNum\ numSlots
+comment7.target=boolean\ isInputValid(int,\ int)
+comment7.text=\r\n\ Tests\ if\ the\ user\ gave\ valid\ input\ for\ a\ move.\r\n\ \r\n\ @param\ coinNum\ The\ number\ of\ the\ coin\ the\ user\ entered.\r\n\ @param\ numSlots\ The\ number\ of\ slots\ the\ user\ entered\ to\ move\ the\ coin.\r\n\ @return\ Boolean\ which\ returns\ true\ for\ valid\ input,\ false\ for\ invalid.\r\n
+numComments=8

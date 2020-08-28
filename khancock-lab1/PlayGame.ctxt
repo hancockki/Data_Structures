@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PlayGame
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ which\ acts\ as\ a\ wrapper\ for\ the\ CoinStrip\ class.\r\n\ Initializes\ game\ and\ calls\ for\ the\ next\ move\ until\ a\ winning\r\n\ move\ has\ been\ made.\r\n
+numComments=2
