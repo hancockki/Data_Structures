@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SudokuSolver
+comment0.text=\r\n\ an\ object\ that\ can\ solve\ a\ given\ SudokuPuzzle\r\n
+comment1.params=puzzleToSolve
+comment1.target=SudokuSolver(SudokuPuzzle)
+comment2.params=
+comment2.target=boolean\ solve()
+comment3.params=
+comment3.target=boolean\ fillNextZero()
+comment4.params=i\ j\ newNum
+comment4.target=SudokuMove\ addToDeque(int,\ int,\ int)
+numComments=5
