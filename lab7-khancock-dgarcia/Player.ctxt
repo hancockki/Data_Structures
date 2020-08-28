@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ An\ abstract\ class\ for\ a\ player\ of\ Hexapawn.\r\n\ \r\n\ @author\ Sean\ Barker\r\n
+comment1.params=playerName\ playerMarker
+comment1.target=Player(java.lang.String,\ Marker)
+comment1.text=\r\n\ Construct\ a\ new\ player\ with\ the\ given\ name\ (e.g.,\ "Alice")\ and\ represented\r\n\ by\ the\ given\ marker.\r\n\ \r\n\ @param\ playerName\ A\ human-readable\ name\ for\ the\ player\ (e.g.,\ "Alice").\r\n\ @param\ playerMarker\ The\ marker\ (black\ or\ white)\ representing\ this\ player.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Get\ the\ player's\ name.\r\n\ \r\n\ @return\ The\ player\ name.\r\n
+comment3.params=
+comment3.target=Marker\ getMarker()
+comment3.text=\r\n\ Get\ the\ player's\ marker.\r\n\ \r\n\ @return\ The\ player\ marker.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

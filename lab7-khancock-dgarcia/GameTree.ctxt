@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=GameTree
+comment1.params=
+comment1.target=GameTree()
+comment10.params=parent
+comment10.target=void\ setParent(GameTree)
+comment11.params=data
+comment11.target=void\ addChild(HexBoard)
+comment12.params=child
+comment12.target=void\ addChild(GameTree)
+comment2.params=value\ activePlayer
+comment2.target=GameTree(HexBoard,\ Marker)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=
+comment4.target=HexBoard\ getValue()
+comment5.params=
+comment5.target=GameTree\ getParent()
+comment6.params=
+comment6.target=java.util.List\ getChildren()
+comment7.params=children
+comment7.target=void\ setChildren(GameTree)
+comment8.params=
+comment8.target=int\ size()
+comment9.params=
+comment9.target=boolean\ isEmpty()
+numComments=13

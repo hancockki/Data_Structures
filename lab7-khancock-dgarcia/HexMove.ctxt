@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HexMove
+comment0.text=\r\n\ A\ class\ representing\ a\ specific\ move\ in\ a\ Hexapawn\ game.\r\n\ \r\n\ @author\ Duane\ Bailey,\ Steve\ Freund,\ Sean\ Barker\r\n
+comment1.params=fromPos\ toPos\ cols
+comment1.target=HexMove(int,\ int,\ int)
+comment1.text=\r\n\ Construct\ a\ new\ move\ from\ fromPos\ to\ toPos\ on\ a\ board\ with\ cols\ columns.\r\n\ \r\n\ @param\ fromPos\r\n\ \ \ \ \ \ \ \ \ \ The\ origin\ position.\r\n\ @param\ toPos\r\n\ \ \ \ \ \ \ \ \ \ The\ destination\ position.\r\n\ @param\ cols\r\n\ \ \ \ \ \ \ \ \ \ The\ number\ of\ columns\ on\ the\ board.\r\n
+comment2.params=
+comment2.target=int\ getFromPos()
+comment3.params=
+comment3.target=int\ getToPos()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

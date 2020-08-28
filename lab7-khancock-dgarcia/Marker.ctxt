@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Marker
+comment0.text=\r\n\ A\ marker\ (white\ or\ black)\ in\ a\ game\ of\ Hexapawn.\r\n\ \r\n\ @author\ Sean\ Barker\r\n
+comment1.params=symbol
+comment1.target=Marker(char)
+comment1.text=\r\n\ Construct\ a\ new\ Marker\ with\ the\ given\ symbol.\r\n\ \r\n\ @param\ symbol\r\n\ \ \ \ \ \ \ \ \ \ The\ symbol\ representing\ the\ marker.\r\n
+comment2.params=
+comment2.target=char\ symbol()
+comment2.text=\r\n\ Get\ the\ character\ used\ to\ draw\ this\ marker.\r\n\ \r\n\ @return\ The\ character\ representing\ this\ marker.\r\n
+comment3.params=
+comment3.target=Marker\ opponent()
+comment3.text=\r\n\ Get\ the\ opposing\ player's\ marker.\r\n\ \r\n\ @return\ The\ other\ marker.\r\n
+numComments=4

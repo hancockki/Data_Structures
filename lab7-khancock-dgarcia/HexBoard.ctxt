@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=HexBoard
+comment0.text=\r\n\ A\ class\ representing\ a\ particular\ configuration\ of\ a\ Hexapawn\ board.\r\n\ \r\n\ @author\ Duane\ Bailey,\ Steve\ Freund,\ Sean\ Barker\r\n
+comment1.params=
+comment1.target=HexBoard()
+comment1.text=\r\n\ Construct\ a\ new\ hexapawn\ board\ with\ the\ default\ 3x3\ board\ size.\r\n
+comment2.params=numRows\ numCols
+comment2.target=HexBoard(int,\ int)
+comment2.text=\r\n\ Construct\ a\ new\ hexapawn\ board\ with\ the\ specified\ board\ size.\r\n\ \r\n\ @param\ numRows\r\n\ \ \ \ \ \ \ \ \ \ Rows\ of\ board.\r\n\ @param\ numCols\r\n\ \ \ \ \ \ \ \ \ \ Columns\ of\ board.\r\n
+comment3.params=prevBoard\ move
+comment3.target=HexBoard(HexBoard,\ HexMove)
+comment3.text=\r\n\ Construct\ a\ new\ hexapawn\ board\ that\ is\ a\ copy\ of\ the\ given\ board\ with\ the\r\n\ given\ hexapawn\ move\ applied\ to\ it.\r\n\ \r\n\ @param\ prevBoard\r\n\ \ \ \ \ \ \ \ \ \ The\ previous\ board.\r\n\ @param\ move\r\n\ \ \ \ \ \ \ \ \ \ The\ game\ move\ to\ be\ applied.\r\n
+comment4.params=lastPlayer
+comment4.target=boolean\ checkWin(Marker)
+comment4.text=\r\n\ Returns\ whether\ the\ given\ player\ (white\ or\ black)\ has\ won.\r\n\ \r\n\ @param\ lastPlayer\r\n\ \ \ \ \ \ \ \ \ \ The\ last\ player\ to\ move.\r\n\ @return\ Whether\ the\ specified\ player\ has\ won.\r\n
+comment5.params=
+comment5.target=java.util.List\ findWhiteMoves()
+comment6.params=
+comment6.target=java.util.List\ findBlackMoves()
+comment7.params=player
+comment7.target=java.util.List\ moves(Marker)
+comment7.text=\r\n\ Get\ a\ list\ of\ all\ possible\ moves\ for\ the\ given\ player\ to\ make\ from\ this\r\n\ position.\r\n\ \r\n\ @param\ player\r\n\ \ \ \ \ \ \ \ \ \ The\ player\ to\ move.\r\n\ @return\ A\ list\ of\ valid\ moves\ for\ the\ given\ player.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

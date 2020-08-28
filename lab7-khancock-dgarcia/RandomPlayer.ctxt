@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=RandomPlayer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RandomPlayer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=playerName\ playerMarker
+comment1.target=RandomPlayer(java.lang.String,\ Marker)
+comment1.text=\r\n\ Construct\ a\ new\ player\ with\ the\ given\ name\ (e.g.,\ "Alice")\ and\ represented\r\n\ by\ the\ given\ marker.\r\n\ \r\n\ @param\ playerName\ A\ human-readable\ name\ for\ the\ player\ (e.g.,\ "Alice").\r\n\ @param\ playerMarker\ The\ marker\ (black\ or\ white)\ representing\ this\ player.\r\n
+comment2.params=player2
+comment2.target=boolean\ equals(Player)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Get\ the\ player's\ name.\r\n\ \r\n\ @return\ The\ player\ name.\r\n
+comment4.params=
+comment4.target=Marker\ getMarker()
+comment4.text=\r\n\ Get\ the\ player's\ marker.\r\n\ \r\n\ @return\ The\ player\ marker.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=position\ opponent
+comment6.target=Player\ play(GameTree,\ Player)
+comment6.text=\r\n\ Play\ a\ complete\ game\ against\ the\ given\ opponent,\ starting\ from\ the\ given\r\n\ game\ tree.\ Returns\ the\ winning\ player\ (either\ this\ or\ opponent).\r\n\ \r\n\ @param\ position\r\n\ \ \ \ \ \ \ \ \ \ A\ non-null\ game\ tree\ node.\r\n\ @param\ opponent\r\n\ \ \ \ \ \ \ \ \ \ The\ player\ that\ moves\ after\ this\ player.\r\n\ @return\ The\ winning\ player.\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
